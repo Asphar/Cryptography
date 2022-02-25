@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Files
+/AES/
+/ProxyServer/
+
 # Distribution / packaging
 .Python
 build/
