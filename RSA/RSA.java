@@ -7,15 +7,15 @@ class RSA {
         int p, q, n, z, d = 0, e, i;
  
         // The number to be encrypted and decrypted
-        int msg = 12;
+        int msg = 10;
         double c;
         BigInteger msgback;
  
         // 1st prime number p
-        p = 3;
+        p = 1021;
  
         // 2nd prime number q
-        q = 11;
+        q = 2689;
         n = p * q;
         z = (p - 1) * (q - 1);
         System.out.println("the value of z = " + z);
